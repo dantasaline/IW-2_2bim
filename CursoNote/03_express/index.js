@@ -6,7 +6,7 @@ app.get('/',function(req,res){
 })
 
 app.get('/blog',function(req,res){
-    res.send('Essa é a pag do blog')
+    res.send('Essa é a pagina do blog')
 })
 
 app.get(404,function(req,res){
